@@ -1,0 +1,36 @@
+<div class="select-mode-container">
+    <button class="back-button" (click)="closePage()">Back</button>
+    
+    <h1 class="title">SELECT A MODE</h1>
+    
+    <div class="modes">
+      <!-- Best Response Section -->
+      <div class="mode">
+        <h2>Select A Category</h2>
+        <h3>Best Response</h3>
+        <div class="options">
+          <button class="level-button">FOOD</button>
+          <button class="level-button">ITEMS</button>
+          <button class="level-button">PLACES</button>
+          <button class="level-button">PEOPLE</button>
+          <button class="level-button">NATURE</button>
+        </div>
+        <button class="play-button"(click)="categoryPage()">
+          <span class="play-icon" (click)="categoryPage()">▶</span>
+        </button>
+      </div>
+      
+      <!-- Semantics Flip Cards Section -->
+      <div class="mode">
+        <h2>Semantics: FLIP CARDS</h2>
+        <div class="flip-cards">
+          <!-- Example grid of cards -->
+          <div class="card" *ngFor="let card of cards">?</div>
+        </div>
+        <button class="play-button" (click)="playFlipcards()">
+          <span class="play-icon" (click)="playFlipcards()">▶</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  

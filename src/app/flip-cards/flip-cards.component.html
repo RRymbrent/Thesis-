@@ -1,0 +1,26 @@
+
+<div class="page-container">
+    <button class="back-button" (click)="backPage()">Back</button>
+    <h1 class="title">FLIP CARDS</h1>
+    <div class="card-grid">
+      <div
+        class="card"
+        *ngFor="let card of cards; let i = index"
+        (click)="onCardClick(i)"
+      >
+        <div class="card-inner" [class.flipped]="flippedIndex === i">
+          <!-- Front of the card -->
+          <div class="card-front">
+            {{ card.question }}
+          </div>
+          <!-- Back of the card -->
+          <div class="card-back">
+            {{ card.answer }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background"></div>
+  </div>
+  
+  
