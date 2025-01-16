@@ -1,1 +1,30 @@
-<p>category works!</p>
+<div class="category-container">
+    <button class="back-button" (click)="closePage()">Back</button>
+    <h2 class="title">SELECT A CATEGORY</h2>
+    <p class="subtitle">Best Response</p>
+
+    
+    <div class="categories">
+      <div class="category" (click)="playBestResponse()">
+        <div class="food"></div>
+        <span class="image-title">FOOD</span>
+      </div>
+      <div class="category" (click)="playBestResponse()">
+        <div class="things"></div>
+        <span class="image-title">THINGS</span>
+      </div>
+      <div class="category" (click)="playBestResponse()">
+        <div class="places"></div>
+        <span class="image-title">PLACES</span>
+      </div>
+      <div class="category" (click)="playBestResponse()">
+        <div class="people"></div>
+        <span class="image-title">PEOPLE</span>
+      </div>
+      <div class="category" (click)="playBestResponse()">
+        <div class="nature"></div>
+        <span class="image-title">NATURE</span>
+      </div>
+    </div>
+  </div>
+  

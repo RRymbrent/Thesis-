@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PlayComponent } from './play/play.component';
-import { LandingComponent } from './landing/landing.component';
 import { AboutComponent } from './about/about.component';
 import { HowToPlayComponent } from './how-to-play/how-to-play.component';
+import { AppComponent } from './app.component';
+import { LandingComponent } from './landing/landing.component';
 import { CategoryComponent } from './category/category.component';
 import { BestResponseComponent } from './best-response/best-response.component';
 import { FlipCardsComponent } from './flip-cards/flip-cards.component';

@@ -1,0 +1,137 @@
+.category-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: #BB3E03;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .back-button {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding: 10px 20px;
+    background-color: #AE2012;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Passion One', sans-serif;
+    cursor: pointer;
+    border-radius: 15px;
+    z-index: 10;
+    transition: transform 0.3s ease;
+  }
+  
+  .back-button:hover {
+    transform: scale(1.30);
+  }
+  
+  .title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    z-index: 5; 
+    position: relative;
+    font-family: 'Passion One', sans-serif;
+  }
+  
+  .subtitle {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    z-index: 5;
+    position: relative;
+    background-color: transparent;
+    font-family: 'Passion One', sans-serif;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    z-index: 1; 
+    position: relative;
+    background-color: transparent;
+  }
+
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    height: 411px;
+    background: rgba(174, 32, 18, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 3; 
+    position: relative;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  .category:hover {
+    border-radius: 10px;
+    background: black;
+    transform: scale(1.05);
+  }
+  
+
+  .image-title {
+    background-color: transparent;
+    color: white;
+    font-size: 48px;
+    font-family: 'Passion One', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+
+  }
+
+  .food {
+    background-image: url('images-category/food.png');
+    width: 275px;
+    height: 212px;
+    background-size: cover;
+    background-color: transparent;
+    margin-top: 20px;
+  }
+
+  .things {
+    background-image: url('images-category/things.png');
+    width: 275px;
+    height: 212px;
+    background-size: cover;
+    background-color: transparent;
+    margin-top: 20px;
+  }
+
+  .places {
+    background-image: url('images-category/place.png');
+    width: 275px;
+    height: 212px;
+    background-size: cover;
+    background-color: transparent;
+    margin-top: 20px;
+  }
+
+  .people {
+    background-image: url('images-category/people.png');
+    width: 275px;
+    height: 212px;
+    background-size: cover;
+    background-color: transparent;
+    margin-top: 20px;
+  }
+
+  .nature {
+    background-image: url('images-category/nature.png');
+    width: 275px;
+    height: 212px;
+    background-size: cover;
+    background-color: transparent;
+    margin-top: 20px;
+  }
+
+
+  
